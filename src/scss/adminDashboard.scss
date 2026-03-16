@@ -1,0 +1,100 @@
+/* =========================== ADMIN DASHBOARD STYLE =========================== */
+
+.admin-dashboard {
+  padding: 30px;
+  background: linear-gradient(135deg, #f4f6f9, #e9eff5);
+  min-height: 100vh;
+}
+
+/* ====== TITRE ====== */
+
+.dashboard-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #4c6278;
+  margin-bottom: 40px;
+}
+
+/* ====== CARDS ====== */
+
+.dashboard-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+/* CARD STYLE */
+
+.dashboard-card {
+  border-radius: 15px;
+  padding: 25px;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+/* HOVER EFFECT */
+
+.dashboard-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 15px 35px rgba(0,0,0,0.2);
+}
+
+/* CARD ICON */
+
+.card-icon {
+  font-size: 40px;
+  opacity: 0.8;
+  margin-bottom: 10px;
+}
+
+/* CARD NUMBER */
+
+.card-number {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+/* CARD TEXT */
+
+.card-text {
+  font-size: 15px;
+  opacity: 0.9;
+}
+
+/* ====== COLORS ====== */
+
+.card-students {
+  background: linear-gradient(135deg,#4facfe,#00f2fe);
+}
+
+.card-teachers {
+  background: linear-gradient(135deg,#43e97b,#38f9d7);
+}
+
+.card-presence {
+  background: linear-gradient(135deg,#fa709a,#fee140);
+}
+
+.card-absence {
+  background: linear-gradient(135deg,#ff6a6a,#ffb199);
+}
+
+/* ====== ANIMATION ====== */
+
+.dashboard-card::before {
+  content: "";
+  position: absolute;
+  width: 150%;
+  height: 150%;
+  background: rgba(255,255,255,0.08);
+  top: -50%;
+  left: -50%;
+  transform: rotate(25deg);
+}
+
+.dashboard-card:hover::before {
+  background: rgba(255,255,255,0.15);
+}
