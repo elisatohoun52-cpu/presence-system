@@ -77,7 +77,8 @@ const applications = [
     title: 'CAP Présence',
     description: '',
     image: getAssetUrl('images/presence.png'),
-    url: '/presence/dashboard',
+    url: '/presence/admin/dashboard',
+
   },
 ];
 

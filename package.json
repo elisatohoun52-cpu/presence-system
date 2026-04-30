@@ -44,7 +44,7 @@
     "classnames": "^2.5.1",
     "core-js": "^3.45.0",
     "date-fns": "^4.1.0",
-    "jspdf": "^3.0.2",
+    "jspdf": "^4.2.1",
     "lodash": "^4.17.21",
     "prop-types": "^15.8.1",
     "react": "^19.1.1",
@@ -53,6 +53,7 @@
     "react-redux": "^9.2.0",
     "react-router-dom": "^7.7.1",
     "react-select": "^5.10.2",
+    "recharts": "^3.8.1",
     "redux": "5.0.1",
     "simplebar-react": "^3.3.2",
     "sweetalert2": "^11.23.0"
